@@ -1,65 +1,45 @@
-# 🚒 Projeto Integrador – Painel Web 
+# 🚒 Capstone Project – Web Dashboard
 
-📌 Sobre o Projeto
+📌 About the Project
 
-Este repositório contém a implementação da aplicação web do projeto App para Coleta e Gestão de Ocorrências – CBMPE (Corpo de Bombeiros Militar de Pernambuco).
+This repository contains the web application for the **Incident Collection and Management App**, developed for the **Pernambuco Military Fire Department (CBMPE)**.
 
-O objetivo é desenvolver um painel administrativo que permita acompanhar, analisar e gerenciar as ocorrências registradas em campo pelos bombeiros, garantindo eficiência, rastreabilidade e alinhamento às diretrizes de transformação digital.
+The goal is to provide an administrative dashboard that allows tracking, analyzing, and managing field incidents reported by firefighters, ensuring efficiency, traceability, and alignment with digital transformation guidelines.
 
-🎯 Funcionalidades do Painel Web
+🎯 Web Dashboard Features
 
-Autenticação & Perfis – Acesso diferenciado para administrador, analista e chefe.
+*   **Authentication & Roles** – Role-based access control for Administrators, Analysts, and Chiefs.
+*   **Incident List & Filters** – Search by period, type, region, and status.
+*   **Detailed Visualization** – Complete incident data, including media and geolocation.
+*   **Reporting & Export** – CSV and PDF report generation.
+*   **User Management** – Full CRUD for accounts, password resets, and role assignment.
+*   **Audit & Logs** – Detailed activity logs for system security.
+*   **Operational Dashboard** – KPIs and charts showing incidents by type, region, and shift.
 
-Lista e Filtros de Ocorrências – Consulta por período, tipo, região e status.
+📊 System Architecture (Web)
 
-Visualização Detalhada – Informações completas da ocorrência, incluindo mídias e localização.
+**Main Language:** 
+*   **TypeScript:** Used across both Frontend and Backend to ensure type safety and reliability.
 
-Relatórios e Exportação – Geração de relatórios em CSV/PDF.
+**Frontend:**
+*   **React:** Main UI library.
+*   **Vite:** Build tool and development server.
+*   **Tailwind CSS:** Styling framework.
 
-Gestão de Usuários – CRUD de contas, redefinição de senha e vinculação de perfis.
+**Backend:**
+*   **Node.js:** Runtime environment.
+*   **Express.js:** Web framework for building the REST API.
+*   **Drizzle ORM:** TypeScript ORM used as the bridge between code and the database.
 
-Auditoria & Logs – Registro de ações realizadas no sistema.
+**Database:**
+*   **PostgreSQL:** Relational database management system.
+*   **Neon:** Serverless PostgreSQL platform for database hosting.
 
-Dashboard Operacional – KPIs e gráficos de ocorrências por tipo, região e turno.
+👨🏽‍💻 Contributors
 
-📊 Arquitetura do Sistema (Web)
-
-Linguagem principal: 
-
-• TypeScript: usado tanto no front end quanto no back end para garantir mais segurança 
-
-Front-end
-
-• React: Usada como biblioteca principal 
-
-• Vite: A ferramenta de desenvolvimento e build do front-end
-
-• Tailwind CSS: Framework de estilização 
-
-Back-end:
-
-• Node.js: A fundação do back end
-
-• Express.js: O framework web que usamos para construir a API REST
-
-• Drizzle ORM: A ferramenta que faz a "ponte" entre o código e a base de dados
-
-Base de dados: 
-
-• PostgreSQL: O sistema de gestão de base de dados relacional 
-
-• Neon: A plataforma serverless onde a base de dados está hospedada
-
-👨🏽‍💻 Colaboradores 
-
-• Ana Beatriz - Gestão de projetos, Documentação e Desenvolvedora Full Stack 
-
-• Gustavo Henrique - Desenvolvedor Full Stack 
-
-• Larissa Monteiro - Documentação
-
-• Eloisa De Andrade - UX/Ui Design 
-
-• Cayo Luiz - UX/UI Design 
-
-• Matheus Ferreira - UX/UI Design
+*   **Ana Beatriz** – Project Management, Documentation & Full Stack Developer
+*   **Gustavo Henrique** – Full Stack Developer
+*   **Larissa Monteiro** – Documentation
+*   **Eloisa De Andrade** – UX/UI Design
+*   **Cayo Luiz** – UX/UI Design
+*   **Matheus Ferreira** – UX/UI Design
