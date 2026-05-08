@@ -39,7 +39,6 @@ The goal is to provide an administrative dashboard that allows tracking, analyzi
 
 *   **Ana Beatriz** – Project Management, Documentation & Full Stack Developer
 *   **Gustavo Henrique** – Full Stack Developer
-*   **Larissa Monteiro** – Documentation
 *   **Eloisa De Andrade** – UX/UI Design
 *   **Cayo Luiz** – UX/UI Design
 *   **Matheus Ferreira** – UX/UI Design
